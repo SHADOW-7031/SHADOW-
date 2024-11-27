@@ -1,0 +1,46 @@
+h1{
+    text-align: center;
+    color: red;
+}
+h3{
+    text-align: center;
+}
+.flex{
+    border: 3px solid blue;
+    display: flex;
+    padding: 0;
+    flex-wrap: wrap;
+    align-items: center;
+}
+li{
+    list-style-type: none;
+    padding: 5% 0;
+    text-align: center;
+}
+
+.box1{
+    text-align: center;
+    outline: 2px solid violet;
+    flex-basis: 100%;
+    
+}
+.box2{
+    text-align: center;
+    outline: 2px solid violet;
+ flex-basis: 35%;
+}
+.box3{
+    text-align: center;
+    outline: 2px solid violet;
+    flex-basis: 65%;
+}
+.box4{
+    text-align: center;
+    outline: 2px solid violet;
+    flex-basis: 60%;
+}
+.box5{
+    text-align: center;
+    outline: 2px solid violet;
+    flex-basis: 40%;
+}

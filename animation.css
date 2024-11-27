@@ -1,0 +1,81 @@
+.container {
+  background-color: black;
+  height: 100vw;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: -1;
+}
+.cirdiv {
+  position: absolute;
+  z-index: 1;
+  background-color: gainsboro;
+  animation: spindd 5s linear infinite;
+  
+}
+@keyframes spindd {
+  0% {
+    transform: rotate3d(1, 0, 1, 0deg);
+  }
+  100% {
+    transform: rotate3d(0, 0, 1, 360deg);
+  }
+}
+
+.circle {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;-
+}
+.cir1 {
+  background-color: rgb(77, 22, 228);
+  color: white;
+  z-index: 0;
+  position: absolute;
+  animation: cir1 5s linear infinite;
+}
+/* @keyframes cir1 {
+  0% {
+    transform: translateX(0);
+  }
+  50% {
+    transform: translatey(100px);
+  }
+  100% {
+    transform: translatex(100px);
+  }
+} */
+.cir2 {
+  background-color: darkorange;
+  color: white;
+  z-index: 2;
+  position: absolute;
+}
+
+.cir3 {
+  background-color: rgb(255, 255, 255);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 3;
+}
+.cir4 {
+  background-color: darkorchid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: 4;
+  color: black;
+}

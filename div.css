@@ -1,0 +1,31 @@
+/* main div details */
+.profile {
+ height: 480px; 
+ width: 300px;
+ background-color: aqua;
+}
+
+.imgCard{
+    height: 180px;
+    background-color: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.img{
+    height: 150px;
+    width: 150px;
+    background-color: blue;
+    border-radius:50%;
+}
+
+.content{
+    text-align: center;
+}
+
+.skills li{
+    display: inline;
+    margin: 10px 15px;
+}
